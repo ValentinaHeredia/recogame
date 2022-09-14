@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-image: url(../imagenes/fondo.png);
+    background-size: 100;
+}
+
+/*css de la navbar*/
+.bg-violet{
+    background-color: #560770;
+    font-family: 'Montserrat', sans-serif; 
+    color: #e51db6;
+    text-decoration: none;
+    font-size: 1.5rem;    
+}
+
+.logo{
+    width: 70px;
+}
+
+/*css de main*/
+
+.titulos{
+    color: #e51db6;
+    text-align: center;
+    font-size: 2rem;
+    background-color: #200b3e;
+}
+
+.bg-darkviolet{
+    background-color: #560770;
+}
+
+.subtitulo{
+    color: #ec8dff;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.texto{
+    color: #ec8dff;
+    text-align: center;
+
+}
+
+.juegos__recomendados{
+    height: auto;
+    margin: 50px auto;
+    padding: 40px 50px;
+    border: solid #7a0f9e 2px;
+}
+
+/*css de footer*/
+.pie{
+    background-color: #130427;
+	padding:30px;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	flex-direction: column;
+}
+
+.pie__icon--sm{
+	width: 30px;
+}
+
+.pie__titulo--md{
+	font-size: 1.5rem;
+    color:#ec8dff;
+}
