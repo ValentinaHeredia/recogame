@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="imagenes/favicon.jpg" type="favicon">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--mi CSS-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Decogames</title>
+  </head>
+  <body>
+    <!--inicia navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-violet nav-font sticky-top">
+        <div class="container-fluid .bg-violet">
+          <a href="index.html">     
+          <img class="logo" src="imagenes/logo.png" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item dropdown">
+                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Juegos
+                 </a>
+                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                   <li><a class="dropdown-item" href="juegos/drp.html">Danganronpa</a></li>
+                   <li><a class="dropdown-item" href="juegos/fnaf.html">Five night at freddy's</a></li>
+                 </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">laboratorio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">tienda</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!--termina navbar-->
+    
+    <!--inicia carousel-->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <img src="imagenes/overcooked.jpeg" class="d-block w-100" alt="overcooked">
+        </div>
+
+        <div class="carousel-item">
+          <img src="imagenes/overcooked2.jpeg" class="d-block w-100" alt="overcooked2">
+        </div>
+
+        <div class="carousel-item">
+          <img src="imagenes/littlenightmare.jpeg" class="d-block w-100" alt="little nightmare">
+        </div>
+
+        <div class="carousel-item">
+          <img src="imagenes/littlenightmare2.jpeg" class="d-block w-100" alt="little nightmare 2">
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <!--termina carousel-->
+
+    <main>
+      <div class="container-fluid">
+          <h2 class="text-sm-start text-md-center text-lg-center titulos">Recomendaciones de la semana</h2>
+          <div>
+              <article class="col-md-6 col-lg-3 mb-3 bg-darkviolet">
+                  <div class="juegos__recomendados">
+                      <img src="imagenes/minecraft.png" class="card-img-top w-100" alt="minecraft">
+                      <div class="">
+                        <h5 class="subtitulo">Minecraft</h5>
+                        <p class="texto">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                    </div>
+              </article>
+             
+              <article class="col-md-6 col-lg-3 mb-3 bg-darkviolet">
+                  <div class="juegos__recomendados">
+                      <img src="imagenes/fallguys.jpg" class="card-img-top w-100" alt="fall guys">
+                      <div>
+                        <h5 class="subtitulo">Fall guys</h5>
+                        <p class="texto">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                    </div>
+              </article>
+              
+              <article class="col-md-6 col-lg-3 mb-3 bg-darkviolet">
+                  <div class="juegos__recomendados">
+                      <img src="imagenes/Among Us.jpg" class="card-img-top w-100" alt="among us">
+                      <div class="">
+                        <h5 class="subtitulo">Among us</h5>
+                        <p class="texto">Some quick exampletext to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                    </div>
+              </article>
+          </div>
+      </div>
+  </main>
+  <footer class="pie">
+    <h3 class="pie__titulo--md">Seguinos en nuestras redes</h3>
+    <div>
+        <a href="https://twitter.com/?lang=es">
+            <img src="imagenes/logo-twitter.png" alt="twitter" class="pie__icon--sm">
+        </a>
+        <a href="https://www.instagram.com/">
+            <img src="imagenes/logo-instagram.png" alt="instagram" class="pie__icon--sm">
+        </a> 
+    </div>
+</footer>
+  </body>
+</html>
